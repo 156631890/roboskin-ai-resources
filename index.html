@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Robot Skin, Tactile AI, and Physical AI Resources</title>
+  <meta name="description" content="A public resource hub for robot skin, tactile AI, tactile feedback, touch data pipelines, and Physical AI research routes from RoboSkin.ai.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Robot Skin, Tactile AI, and Physical AI Resources">
+  <meta property="og:description" content="Definitions, guides, and research routes for robot skin, tactile AI, and Physical AI systems.">
+  <meta property="og:type" content="website">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17202a;
+      --muted: #5a6878;
+      --line: #d9e0e8;
+      --panel: #f6f8fb;
+      --accent: #176b5f;
+      --accent-strong: #0f5148;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    main {
+      width: min(1060px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+
+    header {
+      max-width: 820px;
+      margin-bottom: 36px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.15rem, 5vw, 4.4rem);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .intro {
+      margin: 22px 0 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    a {
+      color: var(--accent-strong);
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.16em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 28px 0 40px;
+    }
+
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 22px;
+      background: var(--panel);
+      min-height: 190px;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.1rem;
+    }
+
+    li {
+      margin: 0.42rem 0;
+    }
+
+    .section {
+      border-top: 1px solid var(--line);
+      padding-top: 30px;
+      margin-top: 30px;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+
+    .links a {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+      background: #ffffff;
+      font-weight: 650;
+      text-decoration: none;
+    }
+
+    .links a:hover {
+      border-color: var(--accent);
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    @media (max-width: 760px) {
+      main {
+        width: min(100% - 28px, 1060px);
+        padding-top: 34px;
+      }
+
+      .grid,
+      .links {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Robot Skin, Tactile AI, and Physical AI Resources",
+      "description": "A public resource hub for robot skin, tactile AI, tactile feedback, touch data pipelines, and Physical AI research routes.",
+      "url": "https://156631890.github.io/roboskin-ai-resources/",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "RoboSkin.ai",
+        "url": "https://roboskin.ai/"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Robot skin",
+          "url": "https://roboskin.ai/robot-skin"
+        },
+        {
+          "@type": "Thing",
+          "name": "Tactile AI",
+          "url": "https://roboskin.ai/tactile-ai"
+        },
+        {
+          "@type": "Thing",
+          "name": "Physical AI",
+          "url": "https://roboskin.ai/physics-ai"
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">RoboSkin.ai resource hub</p>
+      <h1>Robot Skin, Tactile AI, and Physical AI Resources</h1>
+      <p class="intro">
+        A public index for teams researching tactile sensing, robot skin, embodied control, touch data pipelines, and Physical AI systems.
+      </p>
+    </header>
+
+    <ul class="links" aria-label="Core RoboSkin.ai references">
+      <li><a href="https://roboskin.ai/">RoboSkin.ai homepage</a></li>
+      <li><a href="https://roboskin.ai/physics-ai">Physical AI route map</a></li>
+      <li><a href="https://roboskin.ai/robot-skin">Robot skin overview</a></li>
+      <li><a href="https://roboskin.ai/tactile-ai">Tactile AI overview</a></li>
+      <li><a href="https://roboskin.ai/guides/tactile-feedback-for-physical-ai">Tactile feedback for Physical AI</a></li>
+      <li><a href="https://roboskin.ai/guides/physical-ai-touch-data">Physical AI touch data guide</a></li>
+      <li><a href="https://roboskin.ai/research">RoboSkin research routes</a></li>
+      <li><a href="https://roboskin.ai/glossary">Robot skin and tactile AI glossary</a></li>
+    </ul>
+
+    <section class="grid" aria-label="Topic summaries">
+      <article class="card">
+        <h2>Robot Skin</h2>
+        <p>Sensorized surfaces that help robots detect pressure, shear, contact location, deformation, slip, and physical interaction state.</p>
+        <a href="https://roboskin.ai/robot-skin">Read the robot skin overview</a>
+      </article>
+
+      <article class="card">
+        <h2>Tactile AI</h2>
+        <p>Models and pipelines that convert touch signals into machine perception for grasping, manipulation, inspection, and feedback control.</p>
+        <a href="https://roboskin.ai/tactile-ai">Read the tactile AI overview</a>
+      </article>
+
+      <article class="card">
+        <h2>Physical AI</h2>
+        <p>AI systems that perceive, reason, and act in the physical world, where contact feedback helps close the loop between sensing and action.</p>
+        <a href="https://roboskin.ai/physics-ai">Read the Physical AI route map</a>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>Evaluation Questions</h2>
+      <ul>
+        <li>What contact variables are measured directly, and what variables are inferred?</li>
+        <li>Does the system report pressure, shear, deformation, slip, or only binary contact?</li>
+        <li>What sampling rate and latency are available at the controller boundary?</li>
+        <li>How is calibration handled across temperature, wear, mounting variation, and repeated contact?</li>
+        <li>Can the data be converted into stable features for learning systems?</li>
+        <li>Does tactile feedback improve a physical task such as grasping, locomotion, inspection, or human-robot interaction?</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Citation</h2>
+      <p>Primary website: <a href="https://roboskin.ai/">https://roboskin.ai/</a></p>
+      <p>GitHub resource hub: <a href="https://github.com/156631890/roboskin-ai-resources">https://github.com/156631890/roboskin-ai-resources</a></p>
+      <p class="note">This page is a curated public index. It is not a benchmark, endorsement list, or vendor comparison.</p>
+    </section>
+  </main>
+</body>
+</html>
