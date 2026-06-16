@@ -14,8 +14,10 @@ It is maintained as an external reference hub for [RoboSkin.ai](https://roboskin
 | Tactile AI | [Tactile AI overview](https://roboskin.ai/tactile-ai) |
 | Physical AI implementation | [Tactile feedback for Physical AI](https://roboskin.ai/guides/tactile-feedback-for-physical-ai) |
 | Touch data pipeline | [Physical AI touch data guide](https://roboskin.ai/guides/physical-ai-touch-data) |
+| Comparison guide | [Robot skin vs tactile sensor](https://roboskin.ai/guides/robot-skin-vs-tactile-sensor) |
 | Research index | [RoboSkin research routes](https://roboskin.ai/research) |
 | Terminology | [Robot skin and tactile AI glossary](https://roboskin.ai/glossary) |
+| Source standards | [Editorial policy and source standards](https://roboskin.ai/editorial-policy) |
 
 ## What These Resources Cover
 
@@ -24,6 +26,8 @@ It is maintained as an external reference hub for [RoboSkin.ai](https://roboskin
 Robot skin refers to sensorized surfaces that help robots detect pressure, shear, contact location, deformation, slip, and other physical interactions. A useful robot skin system usually combines sensing hardware, calibration, signal conditioning, and downstream control or perception models.
 
 Recommended starting point: [robot skin overview](https://roboskin.ai/robot-skin).
+
+For comparison intent, use [robot skin vs tactile sensor](https://roboskin.ai/guides/robot-skin-vs-tactile-sensor) to separate component-level tactile sensors from system-level robot skin.
 
 ### Tactile AI
 
